@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:atom="http://purl.org/atom/ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
   <channel>
-    <title>My Blog Feed</title>
-    <link>http://www.example.com/blog</link>
-    <description>The latest posts from my blog.</description>
+    <title><![CDATA[www.espn.com - TOP]]></title>
+    <description>Latest TOP news from www.espn.com</description>
+    <link>https://www.espn.com</link>
+    <ttl>30</ttl>
+    <language>en</language>
+    <generator>ESPN Inc. https://www.espn.com</generator>
+    <copyright>Copyright 2015 ESPN Inc.</copyright>
+    <lastBuildDate>Tue, 22 Jul 2025 16:41:34 GMT</lastBuildDate>
+    
+    <image>
+      <url>https://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif</url>
+      <title>www.espn.com - TOP</title>
+      <link>https://www.espn.com</link>
+      <width>110</width>
+      <height>110</height>
+    </image>
+
     <item>
-      <title>First Blog Post</title>
-      <link>http://www.example.com/blog/post1.html</link>
-      <description>This is the content of my first blog post.</description>
-    </item>
-    <item>
-      <title>Second Blog Post</title>
-      <link>http://www.example.com/blog/post2.html</link>
-      <description>This is the content of my second blog post.</description>
+      <title><![CDATA[The worst decision every NBA team has made over the past five years, ranked 30 to 1]]></title>
+      <description><![CDATA[Zach Kram examines the deals, trades and picks that all 30 NBA teams would like to take back from the 2020s.]]></description>
+      <dc:creator><![CDATA[Zach Kram]]></dc:creator>
+      <link><![CDATA[https://www.espn.com/nba/story/_/id/45790173/all-30-nba-teams-roster-mistakes-2020]]></link>
+      <pubDate>Tue, 22 Jul 2025 12:00:57 EST</pubDate>
+      <guid isPermaLink="false"><![CDATA[US-EN-45790173]]></guid>
     </item>
   </channel>
 </rss>
