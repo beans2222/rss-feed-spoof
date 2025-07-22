@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Blog Feed</title>
+    <link>http://www.example.com/blog</link>
+    <description>The latest posts from my blog.</description>
+    <item>
+      <title>First Blog Post</title>
+      <link>http://www.example.com/blog/post1.html</link>
+      <description>This is the content of my first blog post.</description>
+      <pubDate>Mon, 22 Jul 2024 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Second Blog Post</title>
+      <link>http://www.example.com/blog/post2.html</link>
+      <description>This is the content of my second blog post.</description>
+      <pubDate>Tue, 21 Jul 2024 09:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
